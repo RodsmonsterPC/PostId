@@ -4,7 +4,7 @@ export default {
     textList.classList.add("list-group-item");
     let anchor = document.createElement("a");
     anchor.textContent = textTitle;
-    anchor.setAttribute("href", `./postDetail.html?postId=${id}`);
+    anchor.setAttribute("href", `./Post/postDetail.html?postId=${id}`);
     anchor.classList.add("list-text");
     textList.append(anchor);
 

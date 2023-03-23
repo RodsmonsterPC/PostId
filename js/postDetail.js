@@ -6,6 +6,8 @@ let postId = urlParams.get("postId");
 
 const printPost = async () => {
   let response = await getPost(postId);
+  console.log(response);
+
   let { title, body } = response;
 
   document
