@@ -14,5 +14,5 @@ const getPost = async (id) => {
 
   return data;
 };
-
+console.log("hola")
 export { getTitle, getPost };
